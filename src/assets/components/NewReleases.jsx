@@ -12,7 +12,7 @@ const NewReleases = function () {
   const error = useSelector((currentState) => currentState.songs.error);
 
   useEffect(() => {
-    dispatch(getSongsAction("queen"));
+    dispatch(getSongsAction("Rock"));
   }, [dispatch]);
 
   return (
