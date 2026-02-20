@@ -4,7 +4,7 @@ const SingleElement = function (props) {
   return (
     <div>
       <Image fluid src={props.image} rounded></Image>
-      <div className="mt-1">
+      <div className=" d-flex justify-content-between mt-1">
         <p className="mb-0 d-inline-block" style={{ fontSize: "0.8rem" }}>
           {props.title}
         </p>
